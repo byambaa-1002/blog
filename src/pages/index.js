@@ -3,6 +3,8 @@ import { BlogCard } from "../components/BlogCard";
 import { Header } from "@/components/Header";
 import Trending from "../components/Trending";
 import { Echnology } from "../components/Echnology";
+import { BlogPost } from "../components/BlogPost";
+import { About } from "../components/About";
 
 const url = "https://dev.to/api/articles";
 
@@ -19,10 +21,12 @@ const Page = () => {
     return <p>...oh sorry error</p>;
   }
   return (
-    <div className="conatiner max-w-[1024px] md:max-w-[720px] mx-auto">
+    <div className="conatiner max-w-[600px] md:max-w-[1200px] mx-auto">
       <Header />
       <Trending date={data[0].published_at} />
       <Echnology data={data} />
+      <BlogPost />
+
       <div className="grid grid-cols-4 mx-auto gap-4">
         {data.map((blog) => {
           return (
@@ -35,6 +39,7 @@ const Page = () => {
           );
         })}
       </div>
+      <About />
     </div>
   );
 };
