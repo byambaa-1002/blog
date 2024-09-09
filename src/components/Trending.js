@@ -28,14 +28,14 @@ const Trending = (props) => {
         </div>
       </div>
       <div className="flex justify-end ">
-        <div className="">
-          <button className="btn ">
-            <FiChevronLeft />
-          </button>
-          <button className="btn ">
-            <FiChevronRight />
-          </button>
-        </div>
+        <button className="btn " onc>
+          {" "}
+          {/* <Link href="/"></Link> */}
+          <FiChevronLeft />
+        </button>
+        <button className="btn ">
+          <FiChevronRight />
+        </button>
       </div>
     </div>
   );
