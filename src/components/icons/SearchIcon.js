@@ -13,6 +13,7 @@ export const SearchIcon = () => {
         stroke-width="1.5"
         stroke-miterlimit="10"
       />
+
       <path
         d="M10.5715 10.5716L14 14"
         stroke="#52525B"

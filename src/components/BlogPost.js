@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const BlogPost = () => {
   //   const { data } = props;
   return (
@@ -5,7 +7,10 @@ export const BlogPost = () => {
       <div className=" py-7 w-36 h-7 text-2xl font-bold">All Blog Post</div>
       <div className="flex justify-between w-full p-10">
         <div className=" flex ">
-          <button className="btn btn-ghost text-orange-300 ">All</button>
+          <button className="btn btn-ghost text-orange-300 ">
+            <Link href="/contact">All </Link>
+          </button>
+
           <button className="btn btn-ghost">Design</button>
           <button className="btn btn-ghost">Travel</button>
           <button className="btn btn-ghost">Fashion</button>

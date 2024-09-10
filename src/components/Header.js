@@ -13,7 +13,9 @@ export const Header = () => {
         <button className="btn btn-ghost">
           <Link href="/">Blog</Link>
         </button>
-        <button className="btn btn-ghost">Contact</button>
+        <button className="btn btn-ghost">
+          <Link href="/contact">Contact</Link>
+        </button>
       </div>
       <div className="flex justify-center items-center gap-3">
         <input placeholder="Search" />

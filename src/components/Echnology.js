@@ -18,7 +18,7 @@ export const Echnology = (props) => {
                     backgroundPosition: "center",
                     backgroundSize: "cover",
                   }}
-                  className="flex items-end rounded-2xl w-full"
+                  className="flex items-end rounded-2xl w-full  text-center"
                 >
                   <div className="justify-center text-center">
                     <p className=" btn btn-primary rounded-2xl  justify-center  text-base ">
