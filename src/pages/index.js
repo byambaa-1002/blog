@@ -6,6 +6,8 @@ import { Echnology } from "../components/Echnology";
 import { BlogPost } from "../components/BlogPost";
 import { Markdown } from "@/components/Markdown";
 import Link from "next/link";
+// import { ThemeContext } from "@/components/ThemeContext";
+// import { useContext } from "react";
 
 const url = "https://dev.to/api/articles";
 

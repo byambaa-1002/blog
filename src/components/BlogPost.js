@@ -11,7 +11,10 @@ export const BlogPost = () => {
             <Link href="/contact">All </Link>
           </button>
 
-          <button className="btn btn-ghost">Design</button>
+          <button className="btn btn-ghost">
+            <Link href="">Design</Link>
+          </button>
+
           <button className="btn btn-ghost">Travel</button>
           <button className="btn btn-ghost">Fashion</button>
           <button className="btn btn-ghost">Technology</button>
