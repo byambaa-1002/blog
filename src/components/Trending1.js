@@ -1,4 +1,4 @@
-export const Echnology = (props) => {
+export const Trending1 = (props) => {
   const { data } = props;
   return (
     <div className="flex flex-col">
@@ -20,8 +20,9 @@ export const Echnology = (props) => {
                   }}
                   className="flex items-end rounded-2xl w-full  text-center"
                 >
+                  {" "}
                   <div className="justify-center text-center">
-                    <p className=" btn btn-primary rounded-2xl  justify-center  text-base ">
+                    <p className=" btn btn-primary rounded-2xl  justify-center  text-center ">
                       {blog.tag_list[0]}
                     </p>
                     <p className=" text-cyan-50">{blog.title}</p>

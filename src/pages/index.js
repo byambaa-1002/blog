@@ -2,7 +2,7 @@ import useSWR from "swr";
 import { BlogCard } from "../components/BlogCard";
 
 import Trending from "../components/Trending";
-import { Echnology } from "../components/Echnology";
+import { Trending1 } from "../components/Trending1";
 import { BlogPost } from "../components/BlogPost";
 import { Markdown } from "@/components/Markdown";
 import Link from "next/link";
@@ -26,7 +26,7 @@ const Page = () => {
   return (
     <div className="conatiner max-w-[600px] md:max-w-[1200px] mx-auto px-4">
       <Trending date={data[0].published_at} />
-      <Echnology data={data} />
+      <Trending1 data={data} />
       <BlogPost />
 
       <div className="grid grid-cols-4 mx-auto gap-4">

@@ -32,7 +32,6 @@ const Trending = (props) => {
       setIndex(3);
     }
   };
-
   const bgColor = theme === "light" ? "cover_image" : "bg-black";
 
   return (
